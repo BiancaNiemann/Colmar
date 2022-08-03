@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    align-items: center;
+    height: 64px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.grey {
+    color: gray;
+}
+
+.logo {
+    padding-left: 24px;
+}
+
+
+.navbar {
+    margin-left: auto;
+    padding-right: 24px;
+}
+
+.navtab {
+    padding-left: 16px;
+}
