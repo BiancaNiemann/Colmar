@@ -1,18 +1,21 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .header {
     display: flex;
-    width: 100%;
     background-color: aqua;
     align-items: center;
     height: 64px;
-    margin: 0px;
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 26px;
+    padding-top: 18px;
 }
 
 .grey {
@@ -21,6 +24,7 @@ h1 {
 
 .logo {
     padding-left: 24px;
+    height: 50px;
 }
 
 
@@ -31,4 +35,56 @@ h1 {
 
 .navtab {
     padding-left: 16px;
+}
+
+.navtab:last-of-type {
+    margin-right: 24px;
+}
+
+.blockone {
+    display: flex;
+    align-items: flex-start;
+    background-color: lightblue;
+    
+}
+
+.oneleft {
+    width: 60%;
+    height: auto;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+.oneright {
+    width: 40%;
+    margin-left: 24px;
+    align-self: center;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    
+}
+
+.boxheading {
+    font-size: 52px;
+    width: 450px;
+    font-weight: bolder;
+}
+
+.boxpara {
+    font-size: 28px;
+    width: 450px;
+    
+}
+
+.startbut {
+    width: 450px;
+    padding-top: 8px;
+    padding-bottom: 8px;;
+    background-color: darkgray;
+    color: white;
+    font-size:24px ;
 }
