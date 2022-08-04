@@ -45,7 +45,6 @@ h1 {
     display: flex;
     align-items: flex-start;
     background-color: lightblue;
-    
 }
 
 .oneleft {
@@ -87,4 +86,83 @@ h1 {
     background-color: darkgray;
     color: white;
     font-size:24px ;
+}
+
+.blocktwo {
+    display: flex;
+}
+
+.twoleft {
+    background-color: aliceblue;
+}
+
+.infoimg {
+    width: 100%;
+    height: auto;
+    padding: 32px 24px;
+}
+
+.infoheader {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 24px;
+}
+
+.infopara {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.author {
+    padding-top: 24px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+}
+
+.righttwo {
+    display: flex;
+    width: 100%;
+    padding-left: 16px;
+    border: 1px solid gray;
+}
+
+.righttwo:last-of-type {
+    background-color: lightgray;
+}
+
+.righttwo:first-of-type {
+    padding-top: 16px;
+}
+
+.imgsml {
+    width: 35%;
+    height: auto;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+}
+
+.info {
+    width: 65%;
+    align-self: center;
+    
+}
+
+.infosmlheader {
+    font-size: 24px;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+}
+
+.infosmlpara {
+    margin-bottom: 0;
+    padding-bottom: 8px;
+}
+
+.inforead {
+    text-decoration: none;
 }
