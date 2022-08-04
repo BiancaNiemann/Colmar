@@ -166,3 +166,57 @@ h1 {
 .inforead {
     text-decoration: none;
 }
+
+.blockthree {
+    background-color: lightgreen;
+}
+
+.learnmainhead {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.learn {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+    row-gap: 32px;
+    column-gap: 32px;
+}
+
+.imglearn {
+    width: 100%;
+    
+}
+
+.squares {
+    background-color: aliceblue;
+}
+
+.infolearn {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    margin-bottom: 0;
+}
+
+.learnheader {
+    font-size: 24px;
+    padding-top: 16px;
+}
+
+.learncaps {
+    font-size: 22px;
+    padding-top: 8px;
+}
+
+.learncourses {
+    font-size: 20px;
+    padding-top: 8px;
+}
