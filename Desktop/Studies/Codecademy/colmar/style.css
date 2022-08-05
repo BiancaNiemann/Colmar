@@ -327,32 +327,22 @@ h1 {
 }
 
 @media (max-width : 420px) {
-    .largescr {
-        display: none;
-    }
-    .smallscr {
-        justify-content: center;
-    }
-    .logo {
-        height: 40px;
-    }
-    .header {
-        display: flex;
-    }
     h1 {
         display: none;
     }
-    .navtab {
+    .navbar{
+        margin: auto;
+        display: flex;    
+    }
+    .test {
         display: none;
     }
-    .mobilenav{
+    .campus, .online, .sign {
         display: flex;
-        justify-content: space-around;
-    }
-    .campus, .online, .comp, .sign {
-        display: block;
         height: 40px;
-     }
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     
     
 }
