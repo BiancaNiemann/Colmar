@@ -6,20 +6,37 @@
     margin-right: 0;
 }
 
+:root {
+    --color-one : #9615DB;
+    --color-two : #d2d3d3;
+    --color-three: #7d7f80;
+    --color-four: #2d3032;
+    --color-five: #555759;
+    --color-six: white;
+    --main-header: 40px;
+    --sub-header: 24px;
+    --paragraphs: 20px;
+}
+
+/*HEADER*/
+
 .header {
     display: flex;
-    background-color: aqua;
+    background-color: var(--color-one);
     align-items: center;
     height: 64px;
+    position: sticky;
+    top: 0;
 }
 
 h1 {
     font-size: 26px;
     padding-top: 18px;
+    color: var(--color-four);
 }
 
 .grey {
-    color: gray;
+    color: var(--color-two);
 }
 
 .logo {
@@ -27,32 +44,38 @@ h1 {
     height: 50px;
 }
 
-
 .navbar {
     margin-left: auto;
     padding-right: 24px;
 }
 
+.campus, .online, .comp, .sign {
+    display: none;
+}
+
 .navtab {
     padding-left: 16px;
+    color: var(--color-four);
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .navtab:last-of-type {
     margin-right: 24px;
 }
 
+/*BLOCK ONE*/
+
 .blockone {
     display: flex;
     align-items: flex-start;
-    background-color: lightblue;
+    background-color: var(--color-two);
 }
 
 .oneleft {
     width: 60%;
     height: auto;
-    margin-top: 32px;
-    margin-left: 24px;
-    margin-bottom: 32px;
+    margin: 32px 0 32px 24px;
 }
 
 .oneright {
@@ -64,36 +87,35 @@ h1 {
 .banner {
     width: 100%;
     height: auto;
-    
 }
 
 .boxheading {
-    font-size: 52px;
+    font-size: var(--main-header);
     width: 450px;
     font-weight: bolder;
+    color: var(--color-five);
 }
 
 .boxpara {
     font-size: 28px;
     width: 450px;
-    
+    color: var(--color-three);
 }
 
 .startbut {
     width: 450px;
     padding-top: 8px;
     padding-bottom: 8px;;
-    background-color: darkgray;
-    color: white;
+    background-color: var(--color-three);
+    color: var(--color-six);
     font-size:24px ;
 }
 
+/*BLOCK TWO*/
+
 .blocktwo {
     display: flex;
-}
-
-.twoleft {
-    background-color: aliceblue;
+    background-color: var(--color-three);
 }
 
 .infoimg {
@@ -103,35 +125,35 @@ h1 {
 }
 
 .infoheader {
-    padding-left: 24px;
-    padding-right: 24px;
-    font-size: 40px;
+    padding: 0 24px 24px 24px;
+    font-size: var(--main-header);
     margin-bottom: 0;
-    padding-bottom: 24px;
+    color: var(--color-two);
 }
 
 .infopara {
     padding-left: 24px;
     padding-right: 24px;
-    font-size: 20px;
+    font-size: var(--paragraphs);
     margin-bottom: 0;
+    color: var(--color-five);
 }
 
 .author {
-    padding-top: 24px;
-    padding-bottom: 32px;
-    padding-left: 24px;
+    padding: 24px 0px 32px 24px;
+    color: var(--color-five);
 }
 
 .righttwo {
     display: flex;
     width: 100%;
     padding-left: 16px;
-    border: 1px solid gray;
+    border: 1px solid var(--color-two);
+    border-top: none;
 }
 
 .righttwo:last-of-type {
-    background-color: lightgray;
+    background-color: var(--color-two);
 }
 
 .righttwo:first-of-type {
@@ -149,74 +171,188 @@ h1 {
 .info {
     width: 65%;
     align-self: center;
-    
 }
 
 .infosmlheader {
-    font-size: 24px;
+    font-size: var(--sub-header);
     margin-bottom: 0;
     padding-bottom: 8px;
+    color: var(--color-one);
 }
 
 .infosmlpara {
     margin-bottom: 0;
     padding-bottom: 8px;
+    color: var(--color-two);
+}
+
+.infosmlpara:last-of-type {
+    color: var(--color-five);
 }
 
 .inforead {
     text-decoration: none;
+    color: var(--color-four);
 }
 
+
+/*BLOCK THREE*/
+
 .blockthree {
-    background-color: lightgreen;
+    background-color: var(--color-two);
 }
 
 .learnmainhead {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding: 32px;
     text-align: center;
-    font-size: 40px;
+    font-size: var(--main-header);
+    margin: 0;
+    color: var(--color-five);
 }
 
 .learn {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    padding-left: 72px;
-    padding-right: 72px;
-    padding-bottom: 32px;
+    padding: 0 72px 32px 72px;
     row-gap: 32px;
     column-gap: 32px;
 }
 
 .imglearn {
     width: 100%;
-    
 }
 
 .squares {
-    background-color: aliceblue;
+    background-color: var(--color-six);
+    color: var(--color-three);
 }
 
 .infolearn {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 24px;
+    padding: 0 16px 24px 16px;
     margin-bottom: 0;
 }
 
 .learnheader {
-    font-size: 24px;
+    font-size: var(--sub-header);
     padding-top: 16px;
+    margin-bottom: 16px;
 }
 
 .learncaps {
-    font-size: 22px;
+    font-size: 21px;
+    font-weight: normal;
     padding-top: 8px;
+    margin-bottom: 16px;
 }
 
 .learncourses {
-    font-size: 20px;
+    font-size: var(--paragraphs);
     padding-top: 8px;
+}
+
+/*BLOCK FOUR*/
+
+.blockfour {
+    background-color: var(--color-three);
+}
+
+.thesisheader {
+    padding: 32px;
+    margin-bottom: 0;
+    text-align: center;
+    color: var(--color-two);
+    font-size: var(--main-header);
+}
+
+.fourthblock {
+    display: flex;
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.fourleft {
+    width: 60%;
+}
+
+.fourright {
+    width: 40%;
+}
+.thesisvideo {
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.rightfour {
+    display: flex;
+    width: 100%;
+    border: 2px solid var(--color-two);
+}
+
+.rightfour:first-of-type {
+    background-color: var(--color-two);
+    border: none;
+}
+
+/*FOOTER*/
+
+.foot {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    background-color: var(--color-one);
+}
+
+.tandc {
+   margin-left: auto ;
+   padding-right: 24px;
+   
+}
+
+.copywright {
+    margin-bottom: 0;
+    color: var(--color-four);
+}
+
+.terms {
+    padding-right: 16px;
+    text-decoration: none;
+    color: var(--color-four);
+}
+
+.footer {
+    text-decoration: none;
+    color: var(--color-four);
+}
+
+@media (max-width : 420px) {
+    .largescr {
+        display: none;
+    }
+    .smallscr {
+        justify-content: center;
+    }
+    .logo {
+        height: 40px;
+    }
+    .header {
+        display: flex;
+    }
+    h1 {
+        display: none;
+    }
+    .navtab {
+        display: none;
+    }
+    .mobilenav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .campus, .online, .comp, .sign {
+        display: block;
+        height: 40px;
+     }
+    
+    
 }
