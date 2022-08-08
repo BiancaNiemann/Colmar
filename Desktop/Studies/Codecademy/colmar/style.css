@@ -103,7 +103,7 @@ h1 {
 }
 
 .startbut {
-    width: 450px;
+    width: 25rem;
     padding-top: 8px;
     padding-bottom: 8px;;
     background-color: var(--color-three);
@@ -343,6 +343,89 @@ h1 {
         padding-left: 15px;
         padding-right: 15px;
     }
-    
+    .blockone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .oneleft {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .oneright{
+        width: auto;
+        padding-bottom: 32px;
+        
+    }
+    .boxheading {
+        padding-top: 32px;
+        padding-left: 16px;
+    }
+    .boxpara {
+        padding-top: 32px;
+        padding-left: 16px;
+        padding-bottom: 24px;;
+    }
+    .startbut {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .lefttwo {
+        display: none;
+    }
+    .righttwo {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .imgsml {
+        width: auto;
+        height: 250px;
+        object-fit: cover;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .righttwo:last-of-type {
+        background-color: var(--color-three);
+    }
+    .info {
+        padding-bottom: 64px;
+        padding-left: 32px;
+    }
+    .learnmainhead {
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+    .imglearn, .learncaps, .learncourses {
+        display: none;
+    }
+    .learnheader {
+        padding-top: 16px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+    }
+    .infolearn {
+        padding-bottom: 0;
+    }
+    .fourright, .fourhead {
+        display: none;
+    }
+    .fourleft {
+        width: 100%;
+    }
+    .thesisvideo {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 24px;
+    }
+    .copywright {
+        padding-top: 16px;
+        text-align: center;
+    }
+    .tandc {
+        display: none;
+    }
+
     
 }
